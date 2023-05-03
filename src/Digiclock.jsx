@@ -14,7 +14,7 @@ const Digiclock = () => {
   }, []);
 
   return (
-    <div className="text-6xl font-bold text-center text-white">
+    <div className="text-6xl font-bold text-center text-white border border-blue-600">
       {time.toLocaleTimeString()}
     </div>
   );
